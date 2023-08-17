@@ -23,7 +23,7 @@ export default defineNitroConfig({
         targets: [
           { src: './node_modules/@vercel/og/dist/yoga.wasm', dest: './.vercel/output/functions/__nitro.func' },
           { src: './node_modules/@vercel/og/dist/resvg.wasm', dest: './.vercel/output/functions/__nitro.func' },
-          { src: './node_modules/@vercel/og/dist/noto-sans-v27-latin-regular.ttf', dest: './.vercel/output/functions/__nitro.func' },
+          { src: './node_modules/@vercel/og/dist/noto-sans-v27-latin-regular.ttf', dest: './.vercel/output/static' },
         ]
       })
     ]
