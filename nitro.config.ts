@@ -17,6 +17,7 @@ export default defineNitroConfig({
     external: [
       './yoga.wasm?module',
       './resvg.wasm?module',
+      './noto-sans-v27-latin-regular.ttf'
     ],
     plugins: [
       copy({
